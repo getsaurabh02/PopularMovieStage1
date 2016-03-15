@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="android:textColorPrimary">@color/primaryText</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- Movie Detail theme. -->
+    <style name="DetailTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/ActionBar.DetailTheme</item>
+    </style>
+
+    <!-- Movie Detail theme bar -->
+    <style name="ActionBar.DetailTheme" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+    </style>
+
+    <!-- Settings theme for preferemces-->
+    <style name="SettingsTheme" parent="AppTheme">
+    </style>
+
+    <!-- Details-->
+    <style name="detailHeader" parent="AppTheme">
+        <item name="android:textColor">@color/lightText</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">25dp</item>
+        <item name="android:paddingBottom">25dp</item>
+        <item name="android:background">@color/primary</item>
+    </style>
+
+    <!-- Movie detail poster -->
+    <style name="detailPoster" parent="AppTheme">
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <!-- Movie detail year -->
+    <style name="detailYear" parent="AppTheme">
+        <item name="android:textColor">@color/primaryDark</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Movie detail rating -->
+    <style name="detailRating" parent="AppTheme">
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Movie detail synopsis -->
+    <style name="detailSynopsis" parent="AppTheme">
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
